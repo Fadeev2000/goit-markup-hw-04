@@ -404,8 +404,9 @@ svg {
 
 .portfolio-text {
   /* portfolio.html */
+  color: var(--main-color-text);
   font-weight: 400;
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.88;
 }
 
@@ -433,15 +434,15 @@ svg {
 
 .list.project .item {
   margin-top: 30px;
-  flex-basis: calc(100% -10 px / 3);
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 .list.project .item:hover,
 .list.project .item:focus {
-  margin-right: 30px;
+  /*margin-right: 30px;*/
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  flex-basis: calc(100% / 3 - 30px);
+  /*flex-basis: calc(100% / 3 - 30px);*/
 }
 
 /* Footer */
